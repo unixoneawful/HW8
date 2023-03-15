@@ -66,8 +66,8 @@ cap.fly_sky()
 
 class Villian(SecondHero):
 
-    def __init__(self,  name, nickname, superpower, health_points, catchphrase):
-        super().__init__( name, nickname, superpower, health_points, catchphrase)
+    def __init__(self, name, nickname, superpower, health_points, catchphrase):
+        super().__init__(name, nickname, superpower, health_points, catchphrase)
         SuperHero.people = 'monster'
 
     def gen_X(self):
@@ -79,3 +79,5 @@ class Villian(SecondHero):
 tanos = Villian('tanos', 'tanka', 'kamni', 900, 'pon')
 print(Villian.crit(tanos, thor))
 print(Villian.crit(tanos, cap))
+
+print(__)
